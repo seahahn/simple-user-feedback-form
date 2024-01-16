@@ -3,6 +3,8 @@ const texts = {
   WELCOME_MESSAGE: `Thank you for using our website!
   Your feedback is important to us as we strive to improve and provide you with the best experience.
   Please take a few minutes to share your thoughts.`,
+
+  FEEDBACK_START: "Start",
 };
 
 export default texts;
