@@ -10,8 +10,12 @@ const texts = {
   FEEDBACK_NEXT_BTN_TEXT: "Next",
   FEEDBACK_TEXTAREA_PLACEHOLDER: "Please enter your feedback here",
 
+  FEEDBACK_FORM_ERROR_TEXT: "Error - there is no form for this question type",
+
   FEEDBACK_COMPLETE_TEXT: `Thank you for taking the time to provide your valuable feedback!
   Your insights will help us enhance your experience on our website.`,
+
+  REFRESH_ALERT_TEXT: "Are you sure you want to leave this page?",
 
   QUESTION_1_TITLE: "Overall Satisfaction",
   QUESTION_2_TITLE: "Ease of Navigation",
