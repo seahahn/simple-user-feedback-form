@@ -10,6 +10,7 @@ const BaseButton = (props: IButton) => {
       role={props.role}
       type={props.type}
       className={props.className}
+      disabled={props.disabled}
       onClick={props.onClick}>
       {props.text}
     </button>
