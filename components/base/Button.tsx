@@ -4,7 +4,7 @@ interface IButton extends React.ComponentProps<"button"> {
   text: string;
 }
 
-const Button = (props: IButton) => {
+const BaseButton = (props: IButton) => {
   return (
     <button
       role={props.role}
@@ -16,4 +16,4 @@ const Button = (props: IButton) => {
   );
 };
 
-export default Button;
+export default BaseButton;

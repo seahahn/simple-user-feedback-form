@@ -1,5 +1,5 @@
 import texts from "@/constants/texts";
-import Button from "@/components/Button";
+import BaseButton from "@/components/base/Button";
 import Link from "next/link";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
           {texts.WELCOME_MESSAGE}
         </p>
         <Link href="/feedback">
-          <Button
+          <BaseButton
             role="start-btn"
             type="button"
             className="bg-primary-500 hover:bg-primary-700 rounded-md text-2xl text-white px-4 py-2"
