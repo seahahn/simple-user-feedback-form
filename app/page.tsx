@@ -12,12 +12,12 @@ export default function Home() {
           className="whitespace-pre-line text-center text-lg">
           {texts.WELCOME_MESSAGE}
         </p>
-        <Link href="/feedback">
+        <Link href="/feedback/1">
           <BaseButton
             role="start-btn"
             type="button"
             className="bg-primary-500 hover:bg-primary-700 rounded-md text-2xl text-white px-4 py-2"
-            text={texts.FEEDBACK_START}
+            text={texts.FEEDBACK_START_BTN_TEXT}
           />
         </Link>
       </div>
