@@ -25,6 +25,60 @@ const texts = {
   QUESTION_12_TITLE:
     "Do you encounter any issues or bugs while using the website? If yes, please describe. (Open-ended)",
   QUESTION_13_TITLE: "Any additional comments or suggestions? (Open-ended)",
+
+  Q1_OPTION1_TEXT: "Extremely Satisfied",
+  Q1_OPTION2_TEXT: "Satisfied",
+  Q1_OPTION3_TEXT: "Neutral",
+  Q1_OPTION4_TEXT: "Dissatisfied",
+  Q1_OPTION5_TEXT: "Extremely Dissatisfied",
+
+  Q2_OPTION1_TEXT: "Very Easy",
+  Q2_OPTION2_TEXT: "Easy",
+  Q2_OPTION3_TEXT: "Neutral",
+  Q2_OPTION4_TEXT: "Difficult",
+  Q2_OPTION5_TEXT: "Very Difficult",
+
+  Q3_OPTION1_TEXT: "Excellent",
+  Q3_OPTION2_TEXT: "Good",
+  Q3_OPTION3_TEXT: "Average",
+  Q3_OPTION4_TEXT: "Below Average",
+  Q3_OPTION5_TEXT: "Poor",
+
+  Q4_OPTION1_TEXT: "Very Fast",
+  Q4_OPTION2_TEXT: "Fast",
+  Q4_OPTION3_TEXT: "Average",
+  Q4_OPTION4_TEXT: "Slow",
+  Q4_OPTION5_TEXT: "Very Slow",
+
+  Q5_OPTION1_TEXT: "Highly Relevant",
+  Q5_OPTION2_TEXT: "Relevant",
+  Q5_OPTION3_TEXT: "Neutral",
+  Q5_OPTION4_TEXT: "Irrelevant",
+  Q5_OPTION5_TEXT: "Highly Irrelevant",
+
+  Q6_OPTION1_TEXT: "Very Clear",
+  Q6_OPTION2_TEXT: "Clear",
+  Q6_OPTION3_TEXT: "Neutral",
+  Q6_OPTION4_TEXT: "Unclear",
+  Q6_OPTION5_TEXT: "Very Unclear",
+
+  Q7_OPTION1_TEXT: "Very User-Friendly",
+  Q7_OPTION2_TEXT: "User-Friendly",
+  Q7_OPTION3_TEXT: "Neutral",
+  Q7_OPTION4_TEXT: "Not User-Friendly",
+  Q7_OPTION5_TEXT: "Very Not User-Friendly",
+
+  Q8_OPTION1_TEXT: "Search",
+  Q8_OPTION2_TEXT: "Navigation Menu",
+  Q8_OPTION3_TEXT: "User Profile",
+  Q8_OPTION4_TEXT: "Content Filters",
+  Q8_OPTION5_TEXT: "Notifications",
+
+  Q10_OPTION1_TEXT: "Very Likely",
+  Q10_OPTION2_TEXT: "Likely",
+  Q10_OPTION3_TEXT: "Neutral",
+  Q10_OPTION4_TEXT: "Unlikely",
+  Q10_OPTION5_TEXT: "Very Unlikely",
 };
 
 export default texts;
