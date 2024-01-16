@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../styles/globals.css";
 import TopBar from "@/components/composite/TopBar";
+import texts from "@/constants/texts";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Simple User Feedback Form",
-  description: "Take Home Task for Gyeongho Ahn",
+  title: texts.APP_TITLE,
+  description: texts.APP_DESCRIPTION,
 };
 
 export default function RootLayout({
