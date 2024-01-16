@@ -9,7 +9,7 @@ interface IMultiSelect extends React.ComponentProps<"input"> {
 
 const MultiSelect = (props: IMultiSelect) => {
   return (
-    <div className="space-y-4">
+    <div className="w-full space-y-4">
       {props.options?.map((option) => (
         <label
           key={option.id}
