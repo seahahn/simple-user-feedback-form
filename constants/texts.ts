@@ -1,5 +1,7 @@
 const texts = {
   APP_TITLE: "User Feedback Form",
+  APP_DESCRIPTION: "Take Home Task for Gyeongho Ahn",
+
   WELCOME_MESSAGE: `Thank you for using our website!
   Your feedback is important to us as we strive to improve and provide you with the best experience.
   Please take a few minutes to share your thoughts.`,
@@ -7,6 +9,9 @@ const texts = {
   FEEDBACK_START_BTN_TEXT: "Start",
   FEEDBACK_NEXT_BTN_TEXT: "Next",
   FEEDBACK_TEXTAREA_PLACEHOLDER: "Please enter your feedback here",
+
+  FEEDBACK_COMPLETE_TEXT: `Thank you for taking the time to provide your valuable feedback!
+  Your insights will help us enhance your experience on our website.`,
 
   QUESTION_1_TITLE: "Overall Satisfaction",
   QUESTION_2_TITLE: "Ease of Navigation",
