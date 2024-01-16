@@ -10,6 +10,7 @@ const BaseTextArea = (props: ITextArea) => {
       name={props.name}
       className={props.className}
       placeholder={props.placeholder}
+      value={props.value}
       onChange={props.onChange}></textarea>
   );
 };
