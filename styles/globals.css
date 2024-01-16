@@ -17,3 +17,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+textarea {
+  resize: none; /*remove the resize handle on the bottom right*/
+}
+
+textarea:focus {
+  outline: none;
+}
