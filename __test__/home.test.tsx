@@ -11,5 +11,8 @@ describe("Home", () => {
 
     const welcomeMsg = screen.getByRole("welcome-message");
     expect(welcomeMsg).toBeInTheDocument();
+
+    const startBtn = screen.getByRole("start-btn");
+    expect(startBtn).toBeInTheDocument();
   });
 });
