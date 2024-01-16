@@ -8,6 +8,7 @@ const texts = {
 
   FEEDBACK_START_BTN_TEXT: "Start",
   FEEDBACK_NEXT_BTN_TEXT: "Next",
+  FEEDBACK_SUBMIT_BTN_TEXT: "Submit",
   FEEDBACK_TEXTAREA_PLACEHOLDER: "Please enter your feedback here",
 
   FEEDBACK_FORM_ERROR_TEXT: "Error - there is no form for this question type",
