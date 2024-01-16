@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import BaseInput from "./base/Input";
+import BaseInput from "../base/Input";
 
 interface IRadioBtnGroup extends React.ComponentProps<"input"> {
   options: { id: string; value: string; label: string }[];
