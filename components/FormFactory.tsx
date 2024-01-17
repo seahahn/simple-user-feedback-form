@@ -159,8 +159,10 @@ const FormFactory = (props: FormFactoryType) => {
           <BaseButton
             role="start-btn"
             type="button"
-            className={`bg-primary-500 ${
-              isQuestionAnswered ? "hover:bg-primary-700" : "bg-primary-300"
+            className={`${
+              isQuestionAnswered
+                ? "bg-primary-500 hover:bg-primary-700"
+                : "bg-primary-300"
             } rounded-md text-2xl text-white px-4 py-2 w-32`}
             disabled={!isQuestionAnswered} // If the answer exists, then the button is enabled
             text={
