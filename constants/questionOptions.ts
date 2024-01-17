@@ -1,14 +1,5 @@
 import texts from "./texts";
-
-type QuestionOptionType = {
-  id: string;
-  value: string;
-  label: string;
-};
-
-type QuestionOptionsType = {
-  [key: number]: QuestionOptionType[];
-};
+import { QuestionOptionsType } from "./types";
 
 const questionOptions: QuestionOptionsType = {
   1: [

@@ -1,5 +1,5 @@
 "use client";
-import { questionType } from "@/constants/types";
+import { QuestionType } from "@/constants/types";
 import React, { ChangeEvent, useEffect } from "react";
 import RadioBtnGroup from "./composite/RadioBtnGroup";
 import MultiSelect from "./composite/MultiSelect";
@@ -13,7 +13,7 @@ import { useFeedbackStore } from "store/store";
 
 type FormFactoryType = {
   questionNumber: number;
-  questionType: questionType;
+  questionType: QuestionType;
 };
 
 /**
@@ -84,7 +84,7 @@ const FormFactory = (props: FormFactoryType) => {
    * To handle the change of the form based on the question type
    */
   const handleFormChange = (
-    questionType: questionType,
+    questionType: QuestionType,
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     const value = e.target.value;
@@ -115,7 +115,7 @@ const FormFactory = (props: FormFactoryType) => {
   /**
    * To render the form based on the question type
    */
-  const renderForm = ({ questionType }: { questionType: questionType }) => {
+  const renderForm = ({ questionType }: { questionType: QuestionType }) => {
     switch (questionType) {
       case "radio":
         return (
